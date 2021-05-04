@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+}
+.header{
+    text-align: center;
+    padding: 20px;
+    background-color: wheat;
+  }
+.buton{
+  background-color: rgb(0, 3, 0);
+  text-align:center;
+  overflow:visible;
+}
+.buton a {
+ /* border: none;
+  color:rgb(31, 119, 148);
+  background-color:honeydew;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border: none; */
+ 
+  color: #18b603;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; 
+  border:none;
+  font-size: 20px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+.section {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+input[type=text],input[type=email],input[type=number],select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize:vertical;
+}
+input[type=submit]{
+  float: left;
+  width: 5%;
+}
+input[type=reset]{
+  float: left;
+  width: 5%;
+}
+.label {
+  float:left;
+  width:55%;
+  margin-top: 6px;
+}
+.input {
+  float: left;
+  width:75%;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.buton a:hover{
+  background-color: rgb(31, 119, 148);
+  color: honeydew;
+}
+.form_buton {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.form_buton:hover {
+  background-color: #555555;
+  color: white;
+}
+.footer {
+  background-color:rgb(117, 14, 14);
+  color: antiquewhite;
+  padding: 10px;
+  text-align: center;
+}

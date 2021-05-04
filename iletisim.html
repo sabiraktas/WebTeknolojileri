@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>İletişim Sayfası</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/stilim.css">        
+    </head>
+    <body >
+        <div class="header">
+            <h1>WEB TEKNOLOJİLERİ PROJESİ</h1>
+        </div>
+        <div class="buton">  
+            <a href="index.html">HAKKIMDA</a>
+            <a href="ozgecmis.html">ÖZGEÇMİŞİM</a>
+            <a href="sehrim.html">ŞEHRİM</a>
+            <a href="mirasimiz.html">MİRASIMIZ</a>
+            <a href="iletisim.html">İLETİŞİM</a>
+            <a href="login.html">KULLANICI GİRİŞİ</a>
+        </div>
+        <div class="section">
+            <form action="iletisim.php" method="POST">
+                <div class="row">
+                    <div class="label">
+                        <label>ADI SOYADI:</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="adsoyad" required placeholder="Ad Soyadınız...">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="label">
+                        <label>EPOSTA ADRESİ:</label>
+                    </div>
+                    <div class="input">
+                        <input type="email" name="email" required placeholder="Eposta Adresiniz...">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="label">
+                        <label>TELEFON:</label>
+                    </div>
+                    <div class="input">
+                        <input type="number" name="tel" required placeholder="Telefon Numaranız...">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="label">
+                        <label>CİNSİYET:</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="cinsiyet"value="ERKEK" checked >ERKEK
+                        <input type="radio" name="cinsiyet" value="KADIN">KADIN
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="label">
+                        <label>YAŞADIĞINIZ İL:</label>
+                    </div>
+                    <div class="input">
+                        <select name="il">
+                            <option>&#706;SEÇİNİZ&#707;</option>
+                            <option>ADANA</option>
+                            <option>ADIYAMAN</optionNA>
+                            <option >AFYON</option>
+                            <option>AĞRI</option>
+                            <option>AMASYA</option>
+                            <option>ANKARA</option>
+                            <option>ANTALYA</option>
+                            <option>ARTVİN</option>
+                            <option>AYDIN</option>
+                            <option>BALIKESİR</option>
+                            <option>BİLECİK</option>
+                            <option>BİNGÖL</option>
+                            <option>BİTLİS</option>
+                            <option>BOLU</option>
+                            <option>BURDUR</option>
+                            <option>BURSA</option>
+                            <option>ÇANAKKALE</option>
+                            <option>ÇANKIRI</option>
+                            <option>ÇORUM</option>
+                            <option>DENİZLİ</option>
+                            <option>DİYARBAKIR</option>
+                            <option>EDİRNE</option>
+                            <option>ELAZIĞ</option>
+                            <option>ERZİNCAN</option>
+                            <option>ERZURUM</option>
+                            <option>ESKİŞEHİR</option>
+                            <option>GAZİANTEP</option>
+                            <option>GİRESUN</option>
+                            <option>GÜMÜŞHANE</option>
+                            <option>HAKKARİ</option>
+                            <option>HATAY</option>
+                            <option>ISPARTA</option>
+                            <option>MERSİN</option>
+                            <option>İSTANBUL</option>
+                            <option>İZMİR</option>
+                            <option>KARS</option>
+                            <option>KASTAMONU</option>
+                            <option>KAYSERİ</option>
+                            <option>KIRKLARELİ</option>
+                            <option>KIRŞEHİR</option>
+                            <option>KOCAELİ</option>
+                            <option>KONYA</option>
+                            <option>KÜTAHYA</option>
+                            <option>MALATYA</option>
+                            <option>MANİSA</option>
+                            <option>KAHRAMANMARAŞ</option>
+                            <option>MARDİN</option>
+                            <option>MUĞLA</option>
+                            <option>MUŞ</option>
+                            <option>NEVŞEHİR</option>
+                            <option>NİĞDE</option>
+                            <option>ORDU</option>
+                            <option>RİZE</option>
+                            <option>SAKARYA</option>
+                            <option>SAMSUN</option>
+                            <option>SİİRT</option>
+                            <option>SİNOP</option>
+                            <option>SİVAS</option>
+                            <option>TEKİRDAĞ</option>
+                            <option>TOKAT</option>
+                            <option>TRABZON</option>
+                            <option>TUNCELİ</option>
+                            <option>ŞANLIURFA</option>
+                            <option>UŞAK</option>
+                            <option>VAN</option>
+                            <option>YOZGAT</option>
+                            <option>ZONGULDAK</option>
+                            <option>AKSARAY</option>
+                            <option>BAYBURT</option>
+                            <option>KARAMAN</option>
+                            <option>KIRIKKALE</option>
+                            <option>BATMAN</option>
+                            <option>ŞIRNAK</option>
+                            <option>BARTIN</option>
+                            <option>ARDAHAN</option>
+                            <option>IĞDIR</option>
+                            <option>YALOVA</option>
+                            <option>KARABÜK</option>
+                            <option>KİLİS</option>
+                            <option>OSMANİYE</option>
+                            <option>DÜZCE</option>
+                            </select>
+                    </div>
+                </div><br>
+                <div class="row">
+                    
+                        <input type="submit" value="GÖNDER" class="form_buton" >
+                        <input type="reset" value="TEMİZLE" class="form_buton">
+                    
+                </div>
+                </form>
+        </div>
+        <div class="footer">
+            <p>Telif Hakkı © 2021 SABIR AKTAŞ - Tüm Hakları Saklıdır.</p>
+          </div>
+    </body>
+</html>

@@ -5,6 +5,7 @@ body{
     text-align: center;
     padding: 20px;
     background-color: wheat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 .buton{
   background-color: rgb(0, 3, 0);
@@ -85,4 +86,70 @@ input[type=reset]{
 :hover.hakkimda-link{
   text-decoration: underline;
   text-align: left;
+}
+.galeri {
+  display: none;
+}
+.ekdzn {
+  cursor: pointer;
+}
+
+.geri,
+.ileri {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.ileri {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.geri:hover,
+.ileri:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numara {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.altmenu {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.imgsırası {
+  float: left;
+  width: 16.66%;
+}
+
+.kucukefekt {
+  opacity: 0.6;
+}
+
+.active,
+.kucukefekt:hover {
+  opacity: 1;
 }

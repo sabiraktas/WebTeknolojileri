@@ -1,27 +1,118 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Şehrim Sayfası</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/stilim.css">        
-    </head>
-    <body >
-        <div class="header">
-            <h1>WEB TEKNOLOJİLERİ PROJESİ</h1>
-        </div>
-        <div class="buton">  
-          <a href="index.html">HAKKIMDA</a>
-          <a href="ozgecmis.html">ÖZGEÇMİŞİM</a>
-          <a href="sehrim.html">ŞEHRİM</a>
-          <a href="mirasimiz.html">MİRASIMIZ</a>
-          <a href="iletisim.html">İLETİŞİM</a>
-          <a href="login.html">KULLANICI GİRİŞİ</a>
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/stilim.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css"> 
+  
+  
+    <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+
+    img {
+      vertical-align: middle;
+    }
+
+    .dizayn {
+      position: relative;
+    }
+    </style>
+</head>
+<body>
+  <div class="header">
+    <h1>WEB TEKNOLOJİLERİ PROJESİ</h1>
+</div>
+<div class="buton">  
+  <a href="index.html">HAKKIMDA</a>
+  <a href="ozgecmis.html">ÖZGEÇMİŞİM</a>
+  <a href="sehrim.html">ŞEHRİM</a>
+  <a href="mirasimiz.html">MİRASIMIZ</a>
+  <a href="iletisim.html">İLETİŞİM</a>
+  <a href="login.html">KULLANICI GİRİŞİ</a>
+</div><br>
+
+<h2 style="text-align:center">Fatih'in Fethettiği, Yavuz'un Yönettiği, Kanuni'nin Doğduğu,</h2>
+<h2 style="text-align:center"><strong>Efsane Şehir TRABZON</strong> </h2>
+<div class="container">
+  <div class="row">
+      <div class="col-sm-2 " >  
       </div>
-        <div>
-          <h2>ŞEHRİM SAYFASI</h2>
-        </div>
-        <div class="footer">
-            <p>Telif Hakkı © 2021 SABIR AKTAŞ - Tüm Hakları Saklıdır.</p>
-          </div>
-    </body>
+      <div class="col-sm-8">
+        <div class="sehrim">
+          <p>Trabzon şehri Eusebius'a göre MÖ 756 yılında kurulmuştur. Roma ve Rum imparatorluklarına ev sahipliği yapan şehir 23 Mart 1461 tarihinde Fatih Sultan Mehmet tarafından fethedilerek Osmanlı İmparatorluğunun bir parçası haline gelmiştir. Şehir I. Dünya Savaşı sırasında Rus donanması tarafından işgale uğrasa da 1923 yılında yeni kurulan Türkiye Cumhuriyeti devletinin 61. il merkezi olarak yerini almıştır. Günümüzde 18 ilçeden oluşan kentin nüfusu 807 bin 903’dür.</p>
+          <p>Şehir Sümela Manastırı, Ayasofya Müzesi, Atatürk Köşkü, Kanuni Evi gibi tarihi yapıların yanı sıra Uzun Göl, Çal Köy Mağarası, Hamsi Köy gibi doğal güzelliklere de ev sahipliği yapmaktadır. Trabzon’u ziyaret ettiğinizde Kuymak, Hamsiköy sütlacı, Trabzon pidesi, kara lahana sarması, Akçaabat köftesini mutlaka denemenizi öneririm.</p>
+        </div> 
+      </div>
+    </div>
+</div>
+
+<div class="dizayn">
+  <div class="galeri col-12">
+    <div class="numara">1 / 6</div>
+    <a href="https://tr.wikipedia.org/wiki/Ayasofya_(Trabzon)" target="_blank"><img src="ayasofya.jpg" style="width:100%"></a>
+  </div>
+
+  <div class="galeri col-12">
+    <div class="numara">2 / 6</div>
+    <a href="https://gezimanya.com/trabzon/gezilecek-yerler/trabzon-boztepe" target="_blank"><img src="boztepe.jpg" style="width:100%"></a>
+  </div>
+
+  <div class="galeri col-12">
+    <div class="numara">3 / 6</div>
+    <a href="https://tr.wikipedia.org/wiki/S%C3%BCmela_Manast%C4%B1r%C4%B1" target="_blank"><img src="sumela.jpg" style="width:100%"></a>
+  </div>
+    
+  <div class="galeri col-12">
+    <div class="numara">4 / 6</div>
+    <a href="https://tr.wikipedia.org/wiki/Uzung%C3%B6l,_%C3%87aykara" target="_blank"><img src="uzungol.jpg" style="width:100%"></a>
+  </div>
+
+  <div class="galeri col-12">
+    <div class="numara">5 / 6</div>
+    <a href="https://www.kulturportali.gov.tr/turkiye/trabzon/gezilecekyer/ataturk-kosku" target="_blank"><img src="ataturkkosku.jpg" style="width:100%"></a>
+  </div>
+    
+  <div class="galeri col-12">
+    <div class="numara">6 / 6</div>
+    <a href="https://yolcu360.com/blog/hamsikoy-gezi-rehberi-karadeniz-denince-akla-gelen-ilk-koy-trabzon/" target="_blank"><img src="hamsikoy.jpg" style="width:100%"></a>
+  </div>
+    
+  <a class="geri" onclick="butonhareket(-1)">❮</a>
+  <a class="ileri" onclick="butonhareket(1)">❯</a>
+
+  <div class="altmenu">
+    <p id="altyazi"></p>
+  </div>
+
+  <div class="row">
+    <div class="imgsırası col-2">
+      <img class="kucukefekt ekdzn" src="ayasofya.jpg" style="width:100%" onclick="fotogecisleri(1)" alt="Ayasofya Müzesi">
+    </div>
+    <div class="imgsırası col-2">
+      <img class="kucukefekt ekdzn" src="boztepe.jpg" style="width:100%" onclick="fotogecisleri(2)" alt="Boztepe">
+    </div>
+    <div class="imgsırası col-2">
+      <img class="kucukefekt ekdzn" src="sumela.jpg" style="width:100%" onclick="fotogecisleri(3)" alt="Sümela Manastırı">
+    </div>
+    <div class="imgsırası col-2">
+      <img class="kucukefekt ekdzn" src="uzungol.jpg" style="width:100%" onclick="fotogecisleri(4)" alt="Uzugöl">
+    </div>
+    <div class="imgsırası col-2">
+      <img class="kucukefekt ekdzn" src="ataturkkosku.jpg" style="width:100%" onclick="fotogecisleri(5)" alt="Atatürk Köşkü">
+    </div>    
+    <div class="imgsırası col-2">
+      <img class="kucukefekt ekdzn" src="hamsikoy.jpg" style="width:100%" onclick="fotogecisleri(6)" alt="Hamsi Köy">
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <p>Telif Hakkı © 2021 SABIR AKTAŞ - Tüm Hakları Saklıdır.</p>
+</div>
+<script src="myScript.js"></script>
+</body>
 </html>

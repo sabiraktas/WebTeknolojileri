@@ -153,3 +153,28 @@ input[type=reset]{
 .kucukefekt:hover {
   opacity: 1;
 }
+.tsbaslik{
+  font-family: "Sofia", sans-serif;
+  text-align: center;
+}
+.cvbaslik{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+.cvaltbaslik{
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.cvdoldurma{
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  color:rgba(39, 39, 39, 0.87);
+}
+.cvbilgibaslik{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+.okuladlari{
+  font-size: 14pt;
+}

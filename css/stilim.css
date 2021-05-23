@@ -178,3 +178,43 @@ input[type=reset]{
 .okuladlari{
   font-size: 14pt;
 }
+.loginbaslik{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.loginbaslik2{
+
+  width:80% ;
+}
+.loginfooter{
+  position:absolute;
+  top: 92%;
+  width: 100%;
+}
+.loginbuton{
+  background-color: rgb(12, 216, 165);
+ 
+  width: 80%;
+}
+.loginyazi{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50pt;
+}
+.loginrenk{
+  color: #f2f8f5;
+  
+}
+.iletisimfooter{
+  position: absolute;
+  top: 92%;
+  width: 100%;
+}
+.aramabutonu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #212920;
+}

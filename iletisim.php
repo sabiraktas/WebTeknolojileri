@@ -3,7 +3,8 @@
     <head>
         <title>İletişim Sayfası</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/stilim.css">        
+        <link rel="stylesheet" type="text/css" href="css/stilim.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">        
     </head>
     <body >
         <div class="header">
@@ -12,6 +13,7 @@
         <div class="buton">  
             <a href="index.html">HAKKIMDA</a>
             <a href="ozgecmis.html">ÖZGEÇMİŞİM</a>
+            <a href="ilgialanlarim.html">İLGİ ALANLARIM</a>
             <a href="sehrim.html">ŞEHRİM</a>
             <a href="mirasimiz.html">MİRASIMIZ</a>
             <a href="iletisim.html">İLETİŞİM</a>
@@ -41,6 +43,7 @@
                         <?php if(isset($_POST["tel"])) 
                                 echo $_POST["tel"]; 
                         ?>
+                    </div> 
                 </div>
                 <div class="row">
                     <div class="label">
@@ -50,6 +53,13 @@
                                 else echo "KADIN";
                         ?>
                     </div>
+                    <div class="row">
+                        <div class="label">
+                            <label>DOĞUM TARİHİ:</label>
+                            <?php if(isset($_POST["dogumgunu"])) 
+                                    echo $_POST["dogumgunu"]; 
+                            ?>
+                        </div>
                 </div>
                 <div class="row">
                     <div class="label">
@@ -59,8 +69,16 @@
                         ?>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="label">
+                        <label>GERİ BİLDİRİMİNİZ:</label>
+                        <?php if(isset($_POST["textarea"])) 
+                                echo $_POST["textarea"]; 
+                        ?>
+                    </div>
+                </div>        
                 </form>
-        </div>
+        </div><br><br>
         <div class="footer">
             <p>Telif Hakkı © 2021 SABIR AKTAŞ - Tüm Hakları Saklıdır.</p>
           </div>

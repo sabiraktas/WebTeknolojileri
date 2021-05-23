@@ -1,27 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Giriş Sayfası</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/stilim.css">        
-    </head>
-    <body >
-        <div class="header">
-            <h1>WEB TEKNOLOJİLERİ PROJESİ</h1>
+  <head>
+    <title>login sayfası</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/stilim.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body style=" background-image: url('arkaplan.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover; height: 100vh;">
+    <div class="header">
+      <h1>WEB TEKNOLOJİLERİ PROJESİ</h1>
+  </div>
+  <div class="buton">  
+    <a href="index.html">HAKKIMDA</a>
+    <a href="ozgecmis.html">ÖZGEÇMİŞİM</a>
+    <a href="ilgialanlarım.html">İLGİ ALANLARIM</a>
+    <a href="sehrim.html">ŞEHRİM</a>
+    <a href="mirasimiz.html">MİRASIMIZ</a>
+    <a href="iletisim.html">İLETİŞİM</a>
+    <a href="login.html">KULLANICI GİRİŞİ</a>
+  </div><br>
+  <div class="loginbaslik">
+    <form action="login.php" method="POST">
+        <div class="row">
+            <div class="label">
+                <label for="email" class="loginrenk">Kullanıcı Adı:</label>
+            </div>
+            <div class="input">
+                <input type="email" class="loginbaslik2" placeholder="Kullanıcı Adınız..." name="kullaniciadi" required>
+            </div>
         </div>
-        <div class="buton">  
-          <a href="index.html">HAKKIMDA</a>
-          <a href="ozgecmis.html">ÖZGEÇMİŞİM</a>
-          <a href="sehrim.html">ŞEHRİM</a>
-          <a href="mirasimiz.html">MİRASIMIZ</a>
-          <a href="iletisim.html">İLETİŞİM</a>
-          <a href="login.html">KULLANICI GİRİŞİ</a>
-      </div>
-        <div>
-          <h2>GİRİŞ SAYFASI</h2>
+        <div class="row">
+            <div class="label">
+                <label for="sifre" class="loginrenk">Şifre:</label>
+            </div>
+            <div class="input">
+                <input type="password" class="loginbaslik2" placeholder="Şifreniz..." name="sifre" required>
+            </div>
+        </div><br>
+        <div class="row">
+            <div>
+                <button type="submit" class="loginbuton">Giriş</button>
+            </div>
         </div>
-        <div class="footer">
-            <p>Telif Hakkı © 2021 SABIR AKTAŞ - Tüm Hakları Saklıdır.</p>
-          </div>
-    </body>
+        </form>
+</div>
+    <div class="loginfooter footer">
+      <p>Telif Hakkı © 2021 SABIR AKTAŞ - Tüm Hakları Saklıdır.</p>
+    </div>
+  </body>
 </html>
